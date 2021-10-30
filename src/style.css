@@ -16,15 +16,11 @@ body {
     width: 450px;
 }
 
-.screen {
-    height: 15%;
-}
-
 .row {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 17%;
+    height: 20%;
 }
 
 button {
@@ -33,6 +29,7 @@ button {
     font-size: 50px;
     background-color: rgb(200, 200, 200);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 button:hover {
@@ -73,17 +70,20 @@ button:last-child:active {
     background-color: rgb(206, 141, 20);
 }
 
-p {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 40px;
-    padding-right: 5px;
-}
-
 .screen {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+    padding-right: 5px;
+    height: 15%;
+    color: white;
+}
+
+.buttons {
+    height: 85%;
 }
